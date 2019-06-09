@@ -63,7 +63,6 @@ C:\Users\Anele\source\repos\AnezileAcademyWebsite\AnezileAcademy\bin\Debug\netco
 C:\Users\Anele\source\repos\AnezileAcademyWebsite\AnezileAcademy\bin\Debug\netcoreapp2.2\AnezileAcademy.pdb
 C:\Users\Anele\source\repos\AnezileAcademyWebsite\AnezileAcademy\bin\Debug\netcoreapp2.2\AnezileAcademy.Views.dll
 C:\Users\Anele\source\repos\AnezileAcademyWebsite\AnezileAcademy\bin\Debug\netcoreapp2.2\AnezileAcademy.Views.pdb
-C:\Users\Anele\source\repos\AnezileAcademyWebsite\AnezileAcademy\obj\Debug\netcoreapp2.2\AnezileAcademy.csprojAssemblyReference.cache
 C:\Users\Anele\source\repos\AnezileAcademyWebsite\AnezileAcademy\obj\Debug\netcoreapp2.2\AnezileAcademy.csproj.CoreCompileInputs.cache
 C:\Users\Anele\source\repos\AnezileAcademyWebsite\AnezileAcademy\obj\Debug\netcoreapp2.2\AnezileAcademy.RazorAssemblyInfo.cache
 C:\Users\Anele\source\repos\AnezileAcademyWebsite\AnezileAcademy\obj\Debug\netcoreapp2.2\AnezileAcademy.RazorAssemblyInfo.cs
