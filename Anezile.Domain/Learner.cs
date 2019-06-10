@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Anezile.Domain
 {
-    class Learner : User
+    public class Learner : User
     {
         
     }
