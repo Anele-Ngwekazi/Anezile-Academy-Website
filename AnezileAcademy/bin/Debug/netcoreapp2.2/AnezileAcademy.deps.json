@@ -24,6 +24,7 @@
     ".NETCoreApp,Version=v2.2": {
       "AnezileAcademy/1.0.0": {
         "dependencies": {
+          "Anezile.Domain": "1.0.0",
           "Microsoft.AspNetCore.All": "2.2.5",
           "Microsoft.EntityFrameworkCore.Tools": "2.2.4",
           "Microsoft.NETCore.App": "2.2.0",
@@ -340,6 +341,14 @@
           "System.Runtime.Extensions": "4.3.0",
           "System.Threading": "4.3.0",
           "System.Threading.Tasks": "4.3.0"
+        }
+      },
+      "Anezile.Domain/1.0.0": {
+        "runtime": {
+          "Anezile.Domain.dll": {}
+        },
+        "compile": {
+          "Anezile.Domain.dll": {}
         }
       },
       "Libuv/1.10.0": {
@@ -4222,6 +4231,11 @@
       "sha512": "sha512-sQecdZDCWCXg4+798nka4N60JB8Zsm5T/QLKvagHFd4FuaFXQw20125Di5GI/AHA/qbWIOBNnQeGeDxMcdALUg==",
       "path": "system.linq.parallel/4.3.0",
       "hashPath": "system.linq.parallel.4.3.0.nupkg.sha512"
+    },
+    "Anezile.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Libuv/1.10.0": {
       "type": "package",
