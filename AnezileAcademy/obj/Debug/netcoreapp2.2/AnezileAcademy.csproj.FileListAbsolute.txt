@@ -115,3 +115,4 @@ C:\Users\Anele\source\repos\AnezileAcademyWebsite\AnezileAcademy\obj\Debug\netco
 C:\Users\Anele\source\repos\AnezileAcademyWebsite\AnezileAcademy\obj\Debug\netcoreapp2.2\AnezileAcademy.csproj.CopyComplete
 C:\Users\Anele\source\repos\AnezileAcademyWebsite\AnezileAcademy\obj\Debug\netcoreapp2.2\AnezileAcademy.csprojAssemblyReference.cache
 C:\Users\Anele\source\repos\AnezileAcademyWebsite\AnezileAcademy\obj\Debug\netcoreapp2.2\Razor\Views\Academy\Index.g.cshtml.cs
+C:\Users\Anele\source\repos\AnezileAcademyWebsite\AnezileAcademy\obj\Debug\netcoreapp2.2\Razor\Views\Academy\_ManageNav.g.cshtml.cs
