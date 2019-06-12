@@ -19,26 +19,6 @@ namespace AnezileAcademy.Data.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("Anezile.Domain.User", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<string>("Discriminator")
-                        .IsRequired();
-
-                    b.Property<string>("FirstName");
-
-                    b.Property<string>("LastName");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Users");
-
-                    b.HasDiscriminator<string>("Discriminator").HasValue("User");
-                });
-
             modelBuilder.Entity("AnezileAcademy.Models.ApplicationUser", b =>
                 {
                     b.Property<string>("Id")
@@ -198,27 +178,6 @@ namespace AnezileAcademy.Data.Migrations
                     b.HasKey("UserId", "LoginProvider", "Name");
 
                     b.ToTable("AspNetUserTokens");
-                });
-
-            modelBuilder.Entity("Anezile.Domain.Learner", b =>
-                {
-                    b.HasBaseType("Anezile.Domain.User");
-
-                    b.HasDiscriminator().HasValue("Learner");
-                });
-
-            modelBuilder.Entity("Anezile.Domain.Parent", b =>
-                {
-                    b.HasBaseType("Anezile.Domain.User");
-
-                    b.HasDiscriminator().HasValue("Parent");
-                });
-
-            modelBuilder.Entity("Anezile.Domain.Teacher", b =>
-                {
-                    b.HasBaseType("Anezile.Domain.User");
-
-                    b.HasDiscriminator().HasValue("Teacher");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>

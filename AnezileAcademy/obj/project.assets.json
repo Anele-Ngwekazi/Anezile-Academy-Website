@@ -5645,16 +5645,6 @@
         "runtime": {
           "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll": {}
         }
-      },
-      "Anezile.Domain/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.0",
-        "compile": {
-          "bin/placeholder/Anezile.Domain.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Anezile.Domain.dll": {}
-        }
       }
     }
   },
@@ -14956,16 +14946,10 @@
         "windowsazure.storage.8.1.4.nupkg.sha512",
         "windowsazure.storage.nuspec"
       ]
-    },
-    "Anezile.Domain/1.0.0": {
-      "type": "project",
-      "path": "../Anezile.Domain/Anezile.Domain.csproj",
-      "msbuildProject": "../Anezile.Domain/Anezile.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
-      "Anezile.Domain >= 1.0.0",
       "Microsoft.AspNetCore.All >= 2.2.5",
       "Microsoft.EntityFrameworkCore.Tools >= 2.2.4",
       "Microsoft.NETCore.App >= 2.2.0",
@@ -15001,11 +14985,7 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
-          "projectReferences": {
-            "C:\\Users\\Anele\\source\\repos\\AnezileAcademyWebsite\\Anezile.Domain\\Anezile.Domain.csproj": {
-              "projectPath": "C:\\Users\\Anele\\source\\repos\\AnezileAcademyWebsite\\Anezile.Domain\\Anezile.Domain.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
