@@ -11,6 +11,7 @@ using Microsoft.Extensions.DependencyInjection;
 using AnezileAcademy.Data;
 using AnezileAcademy.Models;
 using AnezileAcademy.Services;
+using Microsoft.AspNetCore.Identity.UI;
 
 namespace AnezileAcademy
 {
@@ -28,13 +29,22 @@ namespace AnezileAcademy
         {
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+            
+
 
             services.AddIdentity<ApplicationUser, IdentityRole>()
+                .AddDefaultUI(UIFramework.Bootstrap4)
                 .AddEntityFrameworkStores<ApplicationDbContext>()
                 .AddDefaultTokenProviders();
 
+            services.Configure<IdentityOptions>(options =>
+            {
+                options.SignIn.RequireConfirmedEmail = true;
+            });
+
             // Add application services.
             services.AddTransient<IEmailSender, EmailSender>();
+            services.Configure<AuthMessageSenderOptions>(Configuration);
 
             services.AddMvc();
         }
