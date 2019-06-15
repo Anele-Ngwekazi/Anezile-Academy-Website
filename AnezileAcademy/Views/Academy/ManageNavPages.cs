@@ -13,19 +13,15 @@ namespace AnezileAcademy.Views.Academy
 
         public static string Index => "Index";
 
-        public static string ChangePassword => "ChangePassword";
+        public static string Addition => "Addition";
 
-        public static string ExternalLogins => "ExternalLogins";
-
-        public static string TwoFactorAuthentication => "TwoFactorAuthentication";
+        public static string Substraction => "Substraction";
 
         public static string IndexNavClass(ViewContext viewContext) => PageNavClass(viewContext, Index);
 
-        public static string ChangePasswordNavClass(ViewContext viewContext) => PageNavClass(viewContext, ChangePassword);
+        public static string AdditionNavClass(ViewContext viewContext) => PageNavClass(viewContext, Addition);
 
-        public static string ExternalLoginsNavClass(ViewContext viewContext) => PageNavClass(viewContext, ExternalLogins);
-
-        public static string TwoFactorAuthenticationNavClass(ViewContext viewContext) => PageNavClass(viewContext, TwoFactorAuthentication);
+        public static string SubstractionNavClass(ViewContext viewContext) => PageNavClass(viewContext, Substraction);
     
         public static string PageNavClass(ViewContext viewContext, string page)
         {

@@ -39,5 +39,17 @@ namespace AnezileAcademy.Controllers
             var user = await _userManager.GetUserAsync(User);
             return View();
         }
+
+        public async Task<IActionResult> Addition()
+        {
+            var user = await _userManager.GetUserAsync(User);
+            return View();
+        }
+
+        public async Task<IActionResult> Substraction()
+        {
+            var user = await _userManager.GetUserAsync(User);
+            return View();
+        }
     }
 }
