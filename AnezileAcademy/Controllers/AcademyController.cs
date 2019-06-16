@@ -9,7 +9,6 @@ using AnezileAcademy.Models;
 using AnezileAcademy.Services;
 using Microsoft.AspNetCore.Authorization;
 
-// For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace AnezileAcademy.Controllers
 {
