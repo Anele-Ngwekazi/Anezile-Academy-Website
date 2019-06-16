@@ -111,6 +111,7 @@ namespace AnezileAcademy.Controllers
                                                  UserName = model.Email,
                                                  Email = model.Email };
                 var result = await _userManager.CreateAsync(user, model.Password);
+                await _userManager.AddToRoleAsync(user, "Parent");
                 if (result.Succeeded)
                 {
                     _logger.LogInformation("User created a new account with password.");
