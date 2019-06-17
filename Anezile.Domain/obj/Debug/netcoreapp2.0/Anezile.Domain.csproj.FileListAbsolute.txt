@@ -1,0 +1,9 @@
+C:\Users\Anele\source\repos\AnezileAcademyWebsite\Anezile.Domain\bin\Debug\netcoreapp2.0\Anezile.Domain.deps.json
+C:\Users\Anele\source\repos\AnezileAcademyWebsite\Anezile.Domain\bin\Debug\netcoreapp2.0\Anezile.Domain.dll
+C:\Users\Anele\source\repos\AnezileAcademyWebsite\Anezile.Domain\bin\Debug\netcoreapp2.0\Anezile.Domain.pdb
+C:\Users\Anele\source\repos\AnezileAcademyWebsite\Anezile.Domain\obj\Debug\netcoreapp2.0\Anezile.Domain.csprojAssemblyReference.cache
+C:\Users\Anele\source\repos\AnezileAcademyWebsite\Anezile.Domain\obj\Debug\netcoreapp2.0\Anezile.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Anele\source\repos\AnezileAcademyWebsite\Anezile.Domain\obj\Debug\netcoreapp2.0\Anezile.Domain.AssemblyInfoInputs.cache
+C:\Users\Anele\source\repos\AnezileAcademyWebsite\Anezile.Domain\obj\Debug\netcoreapp2.0\Anezile.Domain.AssemblyInfo.cs
+C:\Users\Anele\source\repos\AnezileAcademyWebsite\Anezile.Domain\obj\Debug\netcoreapp2.0\Anezile.Domain.dll
+C:\Users\Anele\source\repos\AnezileAcademyWebsite\Anezile.Domain\obj\Debug\netcoreapp2.0\Anezile.Domain.pdb

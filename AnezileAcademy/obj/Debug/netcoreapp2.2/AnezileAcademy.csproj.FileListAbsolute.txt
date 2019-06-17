@@ -63,7 +63,6 @@ C:\Users\Anele\source\repos\AnezileAcademyWebsite\AnezileAcademy\bin\Debug\netco
 C:\Users\Anele\source\repos\AnezileAcademyWebsite\AnezileAcademy\bin\Debug\netcoreapp2.2\AnezileAcademy.pdb
 C:\Users\Anele\source\repos\AnezileAcademyWebsite\AnezileAcademy\bin\Debug\netcoreapp2.2\AnezileAcademy.Views.dll
 C:\Users\Anele\source\repos\AnezileAcademyWebsite\AnezileAcademy\bin\Debug\netcoreapp2.2\AnezileAcademy.Views.pdb
-C:\Users\Anele\source\repos\AnezileAcademyWebsite\AnezileAcademy\obj\Debug\netcoreapp2.2\AnezileAcademy.csprojAssemblyReference.cache
 C:\Users\Anele\source\repos\AnezileAcademyWebsite\AnezileAcademy\obj\Debug\netcoreapp2.2\AnezileAcademy.csproj.CoreCompileInputs.cache
 C:\Users\Anele\source\repos\AnezileAcademyWebsite\AnezileAcademy\obj\Debug\netcoreapp2.2\AnezileAcademy.RazorAssemblyInfo.cache
 C:\Users\Anele\source\repos\AnezileAcademyWebsite\AnezileAcademy\obj\Debug\netcoreapp2.2\AnezileAcademy.RazorAssemblyInfo.cs
@@ -79,8 +78,6 @@ C:\Users\Anele\source\repos\AnezileAcademyWebsite\AnezileAcademy\obj\Debug\netco
 C:\Users\Anele\source\repos\AnezileAcademyWebsite\AnezileAcademy\obj\Debug\netcoreapp2.2\Razor\Views\Account\ForgotPasswordConfirmation.g.cshtml.cs
 C:\Users\Anele\source\repos\AnezileAcademyWebsite\AnezileAcademy\obj\Debug\netcoreapp2.2\Razor\Views\Account\Lockout.g.cshtml.cs
 C:\Users\Anele\source\repos\AnezileAcademyWebsite\AnezileAcademy\obj\Debug\netcoreapp2.2\Razor\Views\Account\Login.g.cshtml.cs
-C:\Users\Anele\source\repos\AnezileAcademyWebsite\AnezileAcademy\obj\Debug\netcoreapp2.2\Razor\Views\Account\LoginWith2fa.g.cshtml.cs
-C:\Users\Anele\source\repos\AnezileAcademyWebsite\AnezileAcademy\obj\Debug\netcoreapp2.2\Razor\Views\Account\LoginWithRecoveryCode.g.cshtml.cs
 C:\Users\Anele\source\repos\AnezileAcademyWebsite\AnezileAcademy\obj\Debug\netcoreapp2.2\Razor\Views\Account\Register.g.cshtml.cs
 C:\Users\Anele\source\repos\AnezileAcademyWebsite\AnezileAcademy\obj\Debug\netcoreapp2.2\Razor\Views\Account\ResetPassword.g.cshtml.cs
 C:\Users\Anele\source\repos\AnezileAcademyWebsite\AnezileAcademy\obj\Debug\netcoreapp2.2\Razor\Views\Account\ResetPasswordConfirmation.g.cshtml.cs
@@ -89,15 +86,9 @@ C:\Users\Anele\source\repos\AnezileAcademyWebsite\AnezileAcademy\obj\Debug\netco
 C:\Users\Anele\source\repos\AnezileAcademyWebsite\AnezileAcademy\obj\Debug\netcoreapp2.2\Razor\Views\Home\Contact.g.cshtml.cs
 C:\Users\Anele\source\repos\AnezileAcademyWebsite\AnezileAcademy\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
 C:\Users\Anele\source\repos\AnezileAcademyWebsite\AnezileAcademy\obj\Debug\netcoreapp2.2\Razor\Views\Manage\ChangePassword.g.cshtml.cs
-C:\Users\Anele\source\repos\AnezileAcademyWebsite\AnezileAcademy\obj\Debug\netcoreapp2.2\Razor\Views\Manage\Disable2fa.g.cshtml.cs
-C:\Users\Anele\source\repos\AnezileAcademyWebsite\AnezileAcademy\obj\Debug\netcoreapp2.2\Razor\Views\Manage\EnableAuthenticator.g.cshtml.cs
 C:\Users\Anele\source\repos\AnezileAcademyWebsite\AnezileAcademy\obj\Debug\netcoreapp2.2\Razor\Views\Manage\ExternalLogins.g.cshtml.cs
-C:\Users\Anele\source\repos\AnezileAcademyWebsite\AnezileAcademy\obj\Debug\netcoreapp2.2\Razor\Views\Manage\GenerateRecoveryCodes.g.cshtml.cs
 C:\Users\Anele\source\repos\AnezileAcademyWebsite\AnezileAcademy\obj\Debug\netcoreapp2.2\Razor\Views\Manage\Index.g.cshtml.cs
-C:\Users\Anele\source\repos\AnezileAcademyWebsite\AnezileAcademy\obj\Debug\netcoreapp2.2\Razor\Views\Manage\ResetAuthenticator.g.cshtml.cs
 C:\Users\Anele\source\repos\AnezileAcademyWebsite\AnezileAcademy\obj\Debug\netcoreapp2.2\Razor\Views\Manage\SetPassword.g.cshtml.cs
-C:\Users\Anele\source\repos\AnezileAcademyWebsite\AnezileAcademy\obj\Debug\netcoreapp2.2\Razor\Views\Manage\ShowRecoveryCodes.g.cshtml.cs
-C:\Users\Anele\source\repos\AnezileAcademyWebsite\AnezileAcademy\obj\Debug\netcoreapp2.2\Razor\Views\Manage\TwoFactorAuthentication.g.cshtml.cs
 C:\Users\Anele\source\repos\AnezileAcademyWebsite\AnezileAcademy\obj\Debug\netcoreapp2.2\Razor\Views\Manage\_Layout.g.cshtml.cs
 C:\Users\Anele\source\repos\AnezileAcademyWebsite\AnezileAcademy\obj\Debug\netcoreapp2.2\Razor\Views\Manage\_ManageNav.g.cshtml.cs
 C:\Users\Anele\source\repos\AnezileAcademyWebsite\AnezileAcademy\obj\Debug\netcoreapp2.2\Razor\Views\Manage\_StatusMessage.g.cshtml.cs
@@ -114,3 +105,10 @@ C:\Users\Anele\source\repos\AnezileAcademyWebsite\AnezileAcademy\obj\Debug\netco
 C:\Users\Anele\source\repos\AnezileAcademyWebsite\AnezileAcademy\obj\Debug\netcoreapp2.2\AnezileAcademy.dll
 C:\Users\Anele\source\repos\AnezileAcademyWebsite\AnezileAcademy\obj\Debug\netcoreapp2.2\AnezileAcademy.pdb
 C:\Users\Anele\source\repos\AnezileAcademyWebsite\AnezileAcademy\obj\Debug\netcoreapp2.2\AnezileAcademy.csproj.CopyComplete
+C:\Users\Anele\source\repos\AnezileAcademyWebsite\AnezileAcademy\obj\Debug\netcoreapp2.2\Razor\Views\Academy\Index.g.cshtml.cs
+C:\Users\Anele\source\repos\AnezileAcademyWebsite\AnezileAcademy\obj\Debug\netcoreapp2.2\Razor\Views\Academy\_ManageNav.g.cshtml.cs
+C:\Users\Anele\source\repos\AnezileAcademyWebsite\AnezileAcademy\obj\Debug\netcoreapp2.2\AnezileAcademy.csprojAssemblyReference.cache
+C:\Users\Anele\source\repos\AnezileAcademyWebsite\AnezileAcademy\obj\Debug\netcoreapp2.2\Razor\Views\Academy\Addition.g.cshtml.cs
+C:\Users\Anele\source\repos\AnezileAcademyWebsite\AnezileAcademy\obj\Debug\netcoreapp2.2\Razor\Views\Academy\Substraction.g.cshtml.cs
+C:\Users\Anele\source\repos\AnezileAcademyWebsite\AnezileAcademy\obj\Debug\netcoreapp2.2\Razor\Views\Academy\_Layout.g.cshtml.cs
+C:\Users\Anele\source\repos\AnezileAcademyWebsite\AnezileAcademy\obj\Debug\netcoreapp2.2\Razor\Views\Academy\_ViewImports.g.cshtml.cs

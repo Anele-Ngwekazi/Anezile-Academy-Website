@@ -11,6 +11,7 @@ using Microsoft.Extensions.DependencyInjection;
 using AnezileAcademy.Data;
 using AnezileAcademy.Models;
 using AnezileAcademy.Services;
+using Microsoft.AspNetCore.Identity.UI;
 
 namespace AnezileAcademy
 {
@@ -28,19 +29,30 @@ namespace AnezileAcademy
         {
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+            
+
 
             services.AddIdentity<ApplicationUser, IdentityRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>()
+                .AddDefaultUI(UIFramework.Bootstrap4)
                 .AddDefaultTokenProviders();
+
+            services.Configure<IdentityOptions>(options =>
+            {
+                options.SignIn.RequireConfirmedEmail = true;
+            });
 
             // Add application services.
             services.AddTransient<IEmailSender, EmailSender>();
+            services.Configure<AuthMessageSenderOptions>(Configuration);
 
             services.AddMvc();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env, 
+            ApplicationDbContext context, UserManager<ApplicationUser> userManager, 
+            RoleManager<IdentityRole> roleManager)
         {
             if (env.IsDevelopment())
             {
@@ -63,6 +75,8 @@ namespace AnezileAcademy
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
             });
+
+            SeedData.Initialize(context, userManager, roleManager).Wait();
         }
     }
 }
