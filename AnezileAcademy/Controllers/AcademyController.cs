@@ -13,6 +13,7 @@ using Microsoft.AspNetCore.Authorization;
 namespace AnezileAcademy.Controllers
 {
     [Authorize()]
+    [Route("[controller]/[action]")]
     public class AcademyController : Controller
     {
         private readonly UserManager<ApplicationUser> _userManager;
