@@ -71,6 +71,12 @@ C:\Users\Anele\source\repos\AnezileAcademyWebsite\AnezileAcademy\obj\Debug\netco
 C:\Users\Anele\source\repos\AnezileAcademyWebsite\AnezileAcademy\obj\Debug\netcoreapp2.2\AnezileAcademy.TagHelpers.input.cache
 C:\Users\Anele\source\repos\AnezileAcademyWebsite\AnezileAcademy\obj\Debug\netcoreapp2.2\AnezileAcademy.TagHelpers.output.cache
 C:\Users\Anele\source\repos\AnezileAcademyWebsite\AnezileAcademy\obj\Debug\netcoreapp2.2\AnezileAcademy.RazorCoreGenerate.cache
+C:\Users\Anele\source\repos\AnezileAcademyWebsite\AnezileAcademy\obj\Debug\netcoreapp2.2\Razor\Views\Academy\Addition.g.cshtml.cs
+C:\Users\Anele\source\repos\AnezileAcademyWebsite\AnezileAcademy\obj\Debug\netcoreapp2.2\Razor\Views\Academy\Index.g.cshtml.cs
+C:\Users\Anele\source\repos\AnezileAcademyWebsite\AnezileAcademy\obj\Debug\netcoreapp2.2\Razor\Views\Academy\Substraction.g.cshtml.cs
+C:\Users\Anele\source\repos\AnezileAcademyWebsite\AnezileAcademy\obj\Debug\netcoreapp2.2\Razor\Views\Academy\_Layout.g.cshtml.cs
+C:\Users\Anele\source\repos\AnezileAcademyWebsite\AnezileAcademy\obj\Debug\netcoreapp2.2\Razor\Views\Academy\_ManageNav.g.cshtml.cs
+C:\Users\Anele\source\repos\AnezileAcademyWebsite\AnezileAcademy\obj\Debug\netcoreapp2.2\Razor\Views\Academy\_ViewImports.g.cshtml.cs
 C:\Users\Anele\source\repos\AnezileAcademyWebsite\AnezileAcademy\obj\Debug\netcoreapp2.2\Razor\Views\Account\AccessDenied.g.cshtml.cs
 C:\Users\Anele\source\repos\AnezileAcademyWebsite\AnezileAcademy\obj\Debug\netcoreapp2.2\Razor\Views\Account\ConfirmEmail.g.cshtml.cs
 C:\Users\Anele\source\repos\AnezileAcademyWebsite\AnezileAcademy\obj\Debug\netcoreapp2.2\Razor\Views\Account\ExternalLogin.g.cshtml.cs
@@ -105,10 +111,3 @@ C:\Users\Anele\source\repos\AnezileAcademyWebsite\AnezileAcademy\obj\Debug\netco
 C:\Users\Anele\source\repos\AnezileAcademyWebsite\AnezileAcademy\obj\Debug\netcoreapp2.2\AnezileAcademy.dll
 C:\Users\Anele\source\repos\AnezileAcademyWebsite\AnezileAcademy\obj\Debug\netcoreapp2.2\AnezileAcademy.pdb
 C:\Users\Anele\source\repos\AnezileAcademyWebsite\AnezileAcademy\obj\Debug\netcoreapp2.2\AnezileAcademy.csproj.CopyComplete
-C:\Users\Anele\source\repos\AnezileAcademyWebsite\AnezileAcademy\obj\Debug\netcoreapp2.2\Razor\Views\Academy\Index.g.cshtml.cs
-C:\Users\Anele\source\repos\AnezileAcademyWebsite\AnezileAcademy\obj\Debug\netcoreapp2.2\Razor\Views\Academy\_ManageNav.g.cshtml.cs
-C:\Users\Anele\source\repos\AnezileAcademyWebsite\AnezileAcademy\obj\Debug\netcoreapp2.2\AnezileAcademy.csprojAssemblyReference.cache
-C:\Users\Anele\source\repos\AnezileAcademyWebsite\AnezileAcademy\obj\Debug\netcoreapp2.2\Razor\Views\Academy\Addition.g.cshtml.cs
-C:\Users\Anele\source\repos\AnezileAcademyWebsite\AnezileAcademy\obj\Debug\netcoreapp2.2\Razor\Views\Academy\Substraction.g.cshtml.cs
-C:\Users\Anele\source\repos\AnezileAcademyWebsite\AnezileAcademy\obj\Debug\netcoreapp2.2\Razor\Views\Academy\_Layout.g.cshtml.cs
-C:\Users\Anele\source\repos\AnezileAcademyWebsite\AnezileAcademy\obj\Debug\netcoreapp2.2\Razor\Views\Academy\_ViewImports.g.cshtml.cs
