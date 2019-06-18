@@ -12,7 +12,7 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace AnezileAcademy.Controllers
 {
-    [Authorize()]
+    [Authorize(Roles ="admin")]
     [Route("[controller]/[action]")]
     public class AcademyController : Controller
     {
