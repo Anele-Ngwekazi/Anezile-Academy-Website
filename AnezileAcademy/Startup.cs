@@ -34,7 +34,6 @@ namespace AnezileAcademy
 
             services.AddIdentity<ApplicationUser, IdentityRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>()
-                .AddDefaultUI(UIFramework.Bootstrap4)
                 .AddDefaultTokenProviders();
 
             services.Configure<IdentityOptions>(options =>
