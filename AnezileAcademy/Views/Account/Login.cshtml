@@ -6,9 +6,9 @@
 @inject SignInManager<ApplicationUser> SignInManager
 
 @{
-    ViewData["Title"] = "Log in";
+    ViewData["Title"] = "Please enter your Log in details";
 }
-
+<h1 class="titlecss">@ViewData["Title"]</h1>
 <div class="row">
     <div class="col-md-6">
         <section>
@@ -16,32 +16,29 @@
         </section>
     </div>
     <div class="col-md-4">
-        <h2>@ViewData["Title"]</h2>
         <section>
             <form asp-route-returnurl="@ViewData["ReturnUrl"]" method="post">
-                <h4>Use a local account to log in.</h4>
-                <hr />
                 <div asp-validation-summary="All" class="text-danger"></div>
                 <div class="form-group">
                     <label asp-for="Email"></label>
-                    <input asp-for="Email" class="form-control" />
+                    <input asp-for="Email" class="form-control coloring" placeholder ="Enter your Email" />
                     <span asp-validation-for="Email" class="text-danger"></span>
                 </div>
                 <div class="form-group">
                     <label asp-for="Password"></label>
-                    <input asp-for="Password" class="form-control" />
+                    <input asp-for="Password" class="form-control coloring" placeholder ="Enter your Password"/>
                     <span asp-validation-for="Password" class="text-danger"></span>
                 </div>
                 <div class="form-group">
                     <div class="checkbox">
                         <label asp-for="RememberMe">
-                            <input asp-for="RememberMe" />
+                            <input asp-for="RememberMe" class="coloring" />
                             @Html.DisplayNameFor(m => m.RememberMe)
                         </label>
                     </div>
                 </div>
                 <div class="form-group">
-                    <button type="submit" class="btn btn-default">Log in</button>
+                    <button type="submit" class="btn btn-default coloring">Log in</button>
                 </div>
                 <div class="form-group">
                     <p>

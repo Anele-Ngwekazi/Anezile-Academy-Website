@@ -38,10 +38,42 @@ h1.titlecss {
     font-family: Chiller
 }
 
+h3.heading {
+    background-color: yellow;
+    color: black;
+    text-align: center;
+}
+
+input.coloring {
+    background-color: yellow;
+    color: black;
+    font-size:la;
+}
+
+button.coloring {
+    background-color: yellow;
+    color: black;
+    font-size:large;
+}
+
 /* Hide/rearrange for smaller screens */
 @media screen and (max-width: 767px) {
     /* Hide captions */
     .carousel-caption {
         display: none;
     }
+}
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 300px;
+    width: 400px;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 300px;
+    width: 400px;
 }
