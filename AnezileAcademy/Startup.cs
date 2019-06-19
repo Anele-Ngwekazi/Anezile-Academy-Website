@@ -11,7 +11,6 @@ using Microsoft.Extensions.DependencyInjection;
 using AnezileAcademy.Data;
 using AnezileAcademy.Models;
 using AnezileAcademy.Services;
-using Microsoft.AspNetCore.Identity.UI;
 
 namespace AnezileAcademy
 {
