@@ -3,6 +3,18 @@
 }
 
 <header>
-    <h2 class="text-danger">@ViewData["Title"]</h2>
-    <p class="text-danger">This account has been locked out, please try again later.</p>
+    <div class="col-md-3">
+        <section>
+            <img src="~/images/AccessDenied.jpg" class="img-responsive" style="padding: 20px 0px;" />
+        </section>
+    </div>
+    <div class="col-md-3">
+        <br />
+        <h2 class="text-danger">@ViewData["Title"]</h2>
+        <br />
+        <p class="text-danger">This account has been locked out. Please click forgot Password to change password and be unlocked</p>
+        <p>
+            <a asp-action="ForgotPassword">Forgot your password?</a>
+        </p>
+    </div>
 </header>

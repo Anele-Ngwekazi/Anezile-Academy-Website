@@ -67,7 +67,7 @@ namespace AnezileAcademy.Controllers
                     _logger.LogInformation("User logged in.");
                     return RedirectToLocal(returnUrl);
                 }
-                if (result.IsLockedOut)
+                if (true)
                 {
                     _logger.LogWarning("User account locked out.");
                     return RedirectToAction(nameof(Lockout));

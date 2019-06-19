@@ -1,6 +1,10 @@
 ﻿body {
     padding-top: 50px;
     padding-bottom: 20px;
+    background-color: black;
+    color: yellow;
+    font-size: 18pt;
+    font-family: Chiller;
 }
 
 /* Wrapping element */
@@ -31,7 +35,7 @@ h1.titlecss {
     background-color: yellow;
     color: black;
     text-align: center;
-    font-family: Blackadder ITC
+    font-family: Chiller
 }
 
 /* Hide/rearrange for smaller screens */

@@ -16,8 +16,8 @@
         <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />
     </environment>
 </head>
-<body style="background-color: black;color: yellow;font-size: 18pt; font-family: Chiller">
-    <nav class="navbar navbar-inverse navbar-fixed-top" style="background-color: yellow;color: black;font-size: 18pt; font-family: Chiller">
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top" style="background-color: yellow;font-size: 18pt">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -42,12 +42,12 @@
     </nav>
     <div class="container body-content">
         @RenderBody()
-        <hr />
-        <footer class="col-md-12">
-            <p>&copy; 2019 - AnezileAcademy</p>
-        </footer>
-    </div>
 
+        
+    </div>
+    <footer class="col-md-12" style="background-color: yellow;color: black;text-align: center">
+        <p>&copy; 2019 - AnezileAcademy</p>
+    </footer>
     <environment include="Development">
         <script src="~/lib/jquery/dist/jquery.js"></script>
         <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
