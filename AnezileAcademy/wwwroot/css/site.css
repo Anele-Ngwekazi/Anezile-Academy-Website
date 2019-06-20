@@ -47,7 +47,8 @@ h3.heading {
 input.coloring {
     background-color: yellow;
     color: black;
-    font-size:la;
+    font-size: medium;
+    font-family: Arial;
 }
 
 button.coloring {
