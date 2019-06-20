@@ -32,17 +32,20 @@ namespace AnezileAcademy.Data
                 await roleManager.CreateAsync(new IdentityRole(StudentRoleName));
            
             if (await userManager.FindByIdAsync(ADMIN_ID) == null)
-                await userManager.CreateAsync(new ApplicationUser
+            {
+                var user = new ApplicationUser
                 {
                     Id = ADMIN_ID,
-                    UserName = "admin",
-                    NormalizedUserName = "admin",
+                    UserName = "admin@anezileacademy.co.za",
                     Email = "admin@anezileacademy.co.za",
-                    NormalizedEmail = "admin@anezileacademy.co.za",
-                    EmailConfirmed = true,
-                    PasswordHash = hasher.HashPassword(null, "123Qwe!"),
-                    SecurityStamp = string.Empty
-                });
+                    EmailConfirmed = true
+                };
+
+                await userManager.CreateAsync(user);
+                await userManager.AddPasswordAsync(user, "123Qwe!");
+                await userManager.AddToRoleAsync(user, AdminRoleName);
+            }
+                
 
         }
     }
