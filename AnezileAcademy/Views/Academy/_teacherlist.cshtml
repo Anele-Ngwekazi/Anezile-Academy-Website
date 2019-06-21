@@ -1,0 +1,14 @@
+﻿@model IEnumerable<AnezileAcademy.Models.ApplicationUser>
+
+
+@{
+    ViewData["Title"] = "Academy";
+}
+
+<h4>@ViewData["Title"]</h4>
+<ul>
+    @foreach(var user in Model)
+    {
+        <li>@user.FirstName @user.LastName</li>
+    }
+</ul>

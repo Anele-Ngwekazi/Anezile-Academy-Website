@@ -1,10 +1,30 @@
-﻿@model IndexViewModel
+﻿@model AnezileAcademy.Models.ApplicationUser
+
+
 @{
     ViewData["Title"] = "Academy";
     ViewData.AddActivePage(ManageNavPages.Index);
 }
 
 <h4>@ViewData["Title"]</h4>
+
+@if (Model.Role.Equals("admin"))
+{
+    @await Html.PartialAsync("_teacherlist")
+}
+else if (Model.Role.Equals("teacher"))
+{
+    @await Html.PartialAsync("_studentlist")
+}
+else if (Model.Role.Equals("parent"))
+{
+    @await Html.PartialAsync("_parentstudentlist")
+}
+else if (Model.Role.Equals("student"))
+{
+    @await Html.PartialAsync("_academyworkdetail")
+}
+
 
 @section Scripts {
     @await Html.PartialAsync("_ValidationScriptsPartial")

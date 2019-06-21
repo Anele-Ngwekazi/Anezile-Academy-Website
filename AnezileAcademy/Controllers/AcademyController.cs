@@ -8,7 +8,7 @@ using Microsoft.Extensions.Logging;
 using AnezileAcademy.Models;
 using AnezileAcademy.Services;
 using Microsoft.AspNetCore.Authorization;
-
+using AnezileAcademy.Data;
 
 namespace AnezileAcademy.Controllers
 {
@@ -20,6 +20,7 @@ namespace AnezileAcademy.Controllers
         private readonly SignInManager<ApplicationUser> _signInManager;
         private readonly IEmailSender _emailSender;
         private readonly ILogger _logger;
+
 
         public AcademyController(
   UserManager<ApplicationUser> userManager,
@@ -33,20 +34,45 @@ namespace AnezileAcademy.Controllers
             _logger = logger;
         }
 
-
+        [HttpGet]
         public async Task<IActionResult> Index()
         {
             var user = await _userManager.GetUserAsync(User);
-            return View();
+            user.Role = (await _userManager.GetRolesAsync(user)).ToList<string>().FirstOrDefault();
+
+            return View(user);
         }
 
-        public async Task<IActionResult> Addition()
+
+
+        [HttpGet]
+        public async Task<IActionResult> _teacherlist()
+        {
+            
+            var users = (await _userManager.GetUsersInRoleAsync("teacher")).ToList<ApplicationUser>();
+
+            return View(users);
+        }
+
+        [HttpGet]
+        [Authorize(Roles = "student")]
+        public async Task<IActionResult> Exercises()
         {
             var user = await _userManager.GetUserAsync(User);
-            return View();
+            return View(user);
         }
 
-        public async Task<IActionResult> Substraction()
+        [HttpGet]
+        [Authorize(Roles = "student")]
+        public async Task<IActionResult> Assignments()
+        {
+            var user = await _userManager.GetUserAsync(User);
+            return View(user);
+        }
+
+        [HttpGet]
+        [Authorize(Roles = "student")]
+        public async Task<IActionResult> Tests()
         {
             var user = await _userManager.GetUserAsync(User);
             return View();

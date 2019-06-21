@@ -2,7 +2,11 @@
 
 <ul class="nav nav-pills nav-stacked">
     <li class="@ManageNavPages.IndexNavClass(ViewContext)"><a asp-action="Index">Academy</a></li>
-    <li class="@ManageNavPages.AdditionNavClass(ViewContext)"><a asp-action="Addition">Addition</a></li>
-    <li class="@ManageNavPages.SubstractionNavClass(ViewContext)"><a asp-action="Substraction">Substraction</a></li>
+    @if (true)
+    {
+        <li class="@ManageNavPages.ExercisesNavClass(ViewContext)"><a asp-action="Exercises">Exercises</a></li>
+        <li class="@ManageNavPages.AssignmentsNavClass(ViewContext)"><a asp-action="Assignemnts">Assignemnts</a></li>
+        <li class="@ManageNavPages.TestsNavClass(ViewContext)"><a asp-action="Tests">Tests</a></li>
+    }
 </ul>
 
