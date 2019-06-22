@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc.ViewFeatures;
 
 namespace AnezileAcademy.Views.Academy
 {
-    public static class ManageNavPages
+    public static class AcademyNavPages
     {
         public static string ActivePageKey => "ActivePage";
 

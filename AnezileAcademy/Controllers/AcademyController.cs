@@ -12,7 +12,7 @@ using AnezileAcademy.Data;
 
 namespace AnezileAcademy.Controllers
 {
-    [Authorize(Roles ="admin")]
+    [Authorize]
     [Route("[controller]/[action]")]
     public class AcademyController : Controller
     {
@@ -43,15 +43,18 @@ namespace AnezileAcademy.Controllers
             return View(user);
         }
 
-
+        [HttpGet]
+        [Authorize(Roles = "admin")]
+        public IActionResult _teacherlist()
+        { 
+            return View();
+        }
 
         [HttpGet]
-        public async Task<IActionResult> _teacherlist()
+        [Authorize(Roles = "teacher")]
+        public IActionResult _studentlist()
         {
-            
-            var users = (await _userManager.GetUsersInRoleAsync("teacher")).ToList<ApplicationUser>();
-
-            return View(users);
+            return View();
         }
 
         [HttpGet]

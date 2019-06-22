@@ -2,11 +2,8 @@
 
 
 @{
-    ViewData["Title"] = "Academy";
-    ViewData.AddActivePage(ManageNavPages.Index);
+    ViewData.AddActivePage(AcademyNavPages.Index);
 }
-
-<h4>@ViewData["Title"]</h4>
 
 @if (Model.Role.Equals("admin"))
 {

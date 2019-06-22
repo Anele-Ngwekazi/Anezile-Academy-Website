@@ -1,0 +1,12 @@
+﻿@using AnezileAcademy.Views.Academy
+
+<ul class="nav nav-pills nav-stacked">
+    <li class="@AcademyNavPages.IndexNavClass(ViewContext)"><a asp-action="Index">Academy</a></li>
+    @if (true)
+    {
+        <li class="@AcademyNavPages.ExercisesNavClass(ViewContext)"><a asp-action="Exercises">Exercises</a></li>
+        <li class="@AcademyNavPages.AssignmentsNavClass(ViewContext)"><a asp-action="Assignemnts">Assignemnts</a></li>
+        <li class="@AcademyNavPages.TestsNavClass(ViewContext)"><a asp-action="Tests">Tests</a></li>
+    }
+</ul>
+

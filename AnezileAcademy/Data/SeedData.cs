@@ -19,7 +19,7 @@ namespace AnezileAcademy.Data
             string TeacherRoleName = "teacher";
             string ParentRoleName = "parent";
             string StudentRoleName = "student";
-            const string ADMIN_ID = "a18be9c0-aa65-4af8-bd17-00bd9344e575";
+            string ADMIN_ID = "a18be9c0-aa65-4af8-bd17-00bd9344e575";
             var hasher = new PasswordHasher<ApplicationUser>();
 
             if (await roleManager.FindByNameAsync(AdminRoleName) == null)
@@ -30,7 +30,55 @@ namespace AnezileAcademy.Data
                 await roleManager.CreateAsync(new IdentityRole(ParentRoleName));
             if (await roleManager.FindByNameAsync(StudentRoleName) == null)
                 await roleManager.CreateAsync(new IdentityRole(StudentRoleName));
-           
+
+            if (await userManager.FindByIdAsync(ADMIN_ID) == null)
+            {
+                var user = new ApplicationUser
+                {
+                    FirstName = "student1",
+                    LastName = "student2",
+                    UserName = "st@anezileacademy.co.za",
+                    Email = "st@anezileacademy.co.za",
+                    EmailConfirmed = true
+                };
+
+                await userManager.CreateAsync(user);
+                await userManager.AddPasswordAsync(user, "123Qwe!");
+                await userManager.AddToRoleAsync(user, StudentRoleName);
+            }
+
+            if (await userManager.FindByIdAsync(ADMIN_ID) == null)
+            {
+                var user = new ApplicationUser
+                {
+                    FirstName = "Parent1",
+                    LastName = "Parent2",
+                    UserName = "pa@anezileacademy.co.za",
+                    Email = "pa@anezileacademy.co.za",
+                    EmailConfirmed = true
+                };
+
+                await userManager.CreateAsync(user);
+                await userManager.AddPasswordAsync(user, "123Qwe!");
+                await userManager.AddToRoleAsync(user, ParentRoleName);
+            }
+
+            if (await userManager.FindByIdAsync(ADMIN_ID) == null)
+            {
+                var user = new ApplicationUser
+                {
+                    FirstName = "teacher1",
+                    LastName = "teacher2",
+                    UserName = "te@anezileacademy.co.za",
+                    Email = "te@anezileacademy.co.za",
+                    EmailConfirmed = true
+                };
+
+                await userManager.CreateAsync(user);
+                await userManager.AddPasswordAsync(user, "123Qwe!");
+                await userManager.AddToRoleAsync(user, TeacherRoleName);
+            }
+
             if (await userManager.FindByIdAsync(ADMIN_ID) == null)
             {
                 var user = new ApplicationUser
@@ -45,8 +93,6 @@ namespace AnezileAcademy.Data
                 await userManager.AddPasswordAsync(user, "123Qwe!");
                 await userManager.AddToRoleAsync(user, AdminRoleName);
             }
-                
-
         }
     }
 }
