@@ -112,7 +112,6 @@ C:\Users\Anele\source\repos\AnezileAcademyWebsite\AnezileAcademy\obj\Debug\netco
 C:\Users\Anele\source\repos\AnezileAcademyWebsite\AnezileAcademy\obj\Debug\netcoreapp2.2\Razor\Views\Academy\Assignments.g.cshtml.cs
 C:\Users\Anele\source\repos\AnezileAcademyWebsite\AnezileAcademy\obj\Debug\netcoreapp2.2\Razor\Views\Academy\Exercises.g.cshtml.cs
 C:\Users\Anele\source\repos\AnezileAcademyWebsite\AnezileAcademy\obj\Debug\netcoreapp2.2\Razor\Views\Academy\Tests.g.cshtml.cs
-C:\Users\Anele\source\repos\AnezileAcademyWebsite\AnezileAcademy\obj\Debug\netcoreapp2.2\AnezileAcademy.csprojAssemblyReference.cache
 C:\Users\Anele\source\repos\AnezileAcademyWebsite\AnezileAcademy\obj\Debug\netcoreapp2.2\Razor\Views\Academy\_AcademyNav.g.cshtml.cs
 C:\Users\Anele\source\repos\AnezileAcademyWebsite\AnezileAcademy\obj\Debug\netcoreapp2.2\Razor\Views\Academy\_studentlist .g.cshtml.cs
 C:\Users\Anele\source\repos\AnezileAcademyWebsite\AnezileAcademy\obj\Debug\netcoreapp2.2\Razor\Views\Academy\_academyworkdetail.g.cshtml.cs

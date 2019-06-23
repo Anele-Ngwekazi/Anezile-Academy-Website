@@ -58,6 +58,20 @@ namespace AnezileAcademy.Controllers
         }
 
         [HttpGet]
+        [Authorize(Roles = "parent")]
+        public IActionResult _parentstudentlist()
+        {
+            return View();
+        }
+
+        [HttpGet]
+        [Authorize(Roles = "student")]
+        public IActionResult _academyworkdetail()
+        {
+            return View();
+        }
+
+        [HttpGet]
         [Authorize(Roles = "student")]
         public async Task<IActionResult> Exercises()
         {

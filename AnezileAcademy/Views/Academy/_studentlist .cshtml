@@ -1,1 +1,12 @@
-﻿
+﻿@inject UserManager<ApplicationUser> UserManager
+
+@{
+    ViewData["Title"] = "Teacher list";
+}
+<h4>@ViewData["Title"]</h4>
+<ul>
+    @foreach (var user in (await UserManager.GetUsersInRoleAsync("teacher")))
+    {
+        <li>@user.FirstName @user.LastName</li>
+    }
+</ul>
