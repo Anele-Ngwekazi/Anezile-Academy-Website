@@ -14,13 +14,6 @@
     padding-right: 15px;
 }
 
-/
-
-/* QR code generator */
-#qrCode {
-    margin: 15px;
-}
-
 /* h1 title styles*/
 h1.titlecss {
     background-color: yellow;
