@@ -4,9 +4,18 @@
     ViewData["Title"] = "Teacher list";
 }
 <h4>@ViewData["Title"]</h4>
-<ul>
-    @foreach (var user in (await UserManager.GetUsersInRoleAsync("teacher")))
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Last Name</th>
+        <th>Space</th>
+    </tr>
+    @foreach (var user in (await UserManager.GetUsersInRoleAsync("Student")))
     {
-        <li>@user.FirstName @user.LastName</li>
+        <tr><td>@user.FirstName @user.LastName</td></tr>
     }
-</ul>
+</table>
+
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+}
