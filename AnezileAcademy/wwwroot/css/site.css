@@ -1,7 +1,7 @@
 ﻿body {
     padding-top: 50px;
     padding-bottom: 20px;
-    background-color: maroon;
+    background-color: white;
     color: black;
     font-size: 18pt;
     font-family: Calibri;
@@ -17,14 +17,14 @@
 /* h1 title styles*/
 h1.titlecss {
     background-color: yellow;
-    color: maroon;
+    color: white;
     text-align: center;
     font-family: Calibri
 }
 
 p.titlecss {
     background-color: yellow;
-    color: maroon;
+    color: white;
     text-align: center;
     font-family: Chiller
 }
@@ -45,7 +45,7 @@ input.coloring {
 button.coloring {
     background-color: yellow;
     color: black;
-    font-size:large;
+    font-size: large;
 }
 
 /* Hide/rearrange for smaller screens */

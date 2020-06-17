@@ -1,8 +1,10 @@
 ﻿body {
     padding-top: 50px;
     padding-bottom: 20px;
-    background-color: maroon;
-    color: black;
+    background-image: url("../images/background.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
     font-size: 18pt;
     font-family: Calibri;
 }
@@ -16,15 +18,14 @@
 
 /* h1 title styles*/
 h1.titlecss {
-    background-color: yellow;
-    color: maroon;
+    color: yellow;
     text-align: center;
     font-family: Calibri
 }
 
 p.titlecss {
     background-color: yellow;
-    color: maroon;
+    color: white;
     text-align: center;
     font-family: Chiller
 }
@@ -68,4 +69,8 @@ button.coloring {
     background: none !important;
     height: 400px;
     width: 100%;
+}
+
+a {
+    color: white;
 }

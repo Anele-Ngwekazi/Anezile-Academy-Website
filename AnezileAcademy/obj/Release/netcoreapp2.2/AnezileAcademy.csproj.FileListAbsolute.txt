@@ -62,3 +62,5 @@ C:\Development\Anezile-Academy-Website\AnezileAcademy\obj\Release\netcoreapp2.2\
 C:\Development\Anezile-Academy-Website\AnezileAcademy\obj\Release\netcoreapp2.2\AnezileAcademy.dll
 C:\Development\Anezile-Academy-Website\AnezileAcademy\obj\Release\netcoreapp2.2\AnezileAcademy.pdb
 C:\Development\Anezile-Academy-Website\AnezileAcademy\obj\Release\netcoreapp2.2\AnezileAcademy.csproj.CopyComplete
+C:\Development\Anezile-Academy-Website\AnezileAcademy\obj\Release\netcoreapp2.2\AnezileAcademy.csproj.CoreCompileInputs.cache
+C:\Development\Anezile-Academy-Website\AnezileAcademy\obj\Release\netcoreapp2.2\AnezileAcademy.genruntimeconfig.cache
