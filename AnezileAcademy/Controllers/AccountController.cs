@@ -109,7 +109,9 @@ namespace AnezileAcademy.Controllers
                 var user = new ApplicationUser { FirstName = model.FirstName,
                                                  LastName = model.LastName,
                                                  UserName = model.Email,
-                                                 Email = model.Email };
+                                                 Email = model.Email,
+                                                 SecurityStamp = Guid.NewGuid().ToString()
+                };
                 var result = await _userManager.CreateAsync(user, model.Password);
                 var result2 = await _userManager.AddToRoleAsync(user, "parent");
                 if (result.Succeeded && result2.Succeeded)
