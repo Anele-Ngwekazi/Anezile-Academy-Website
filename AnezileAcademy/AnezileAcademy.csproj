@@ -1,21 +1,16 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.2</TargetFramework>
-    <UserSecretsId>b98eb7b8-dbba-4957-b82f-a2fdb2c1a868</UserSecretsId>
+	  <TargetFramework>net7.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.2.5" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.2.4" />
-    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.0.0" />
-    <PackageReference Include="SendGrid" Version="9.11.0" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.0.3" />
-    <DotNetCliToolReference Include="Microsoft.Extensions.SecretManager.Tools" Version="2.0.2" />
-    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.4" />
+	  <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="7.0.5" />
+	  <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.5" />
+	  <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="7.0.5" />
+	  <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.5" />
+	  <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.5" />
+	  <PackageReference Include="SendGrid" Version="9.11.0" />
   </ItemGroup>
 
 </Project>
